@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="jspuitestEx1"
+  xmlns="http://java.sun.com/xmls/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchem-instance"
+  xsi:schemaLocation="http://java.sun.com/xmls/ns/javaee http://java.sun.com/xmls/ns/javaee/web-app_2_5.xsd"
+  version="2.5">
+  <display-name>JSP UI Test example1</display-name>
+  <description>JSP UI Test example1</description>
+  <!--context-param>
+   <param-name>javax.servlet.jsp.jstl.fmt.Locale</param-name>
+   <param-value>en_IN</param-value>
+  </context-param>
+  <context-param>
+   <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+   <param-value>net.codesree.messages</param-value>
+  </context-param>
+  <context-param>
+   <param-name>javax.servlet.jsp.jstl.fmt.fallbackLocale</param-name>
+   <param-value>en_US</param-value>
+  </context-param-->
+  <context-param>
+   <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+   <param-value>net.codesree.messages</param-value>
+  </context-param>
+</web-app>
